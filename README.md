@@ -7,6 +7,19 @@
   </a>
 </div>
 
+<p align="center">
+  <a href="https://pypi.org/project/webtap/">
+    <img src="https://img.shields.io/pypi/v/webtap" alt="PIP Version">
+  </a>
+  <a href="https://github.com/webtap-ai/webtap/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/webtap-ai/webtap" alt="MIT License">
+  </a>
+  <a href="https://github.com/webtap-ai/webtap/pulls">
+    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen" alt="Send PR">
+  </a>
+</p>
+
+
 
 # Webtap.ai: The Ultimate AI Web Scraper
 
