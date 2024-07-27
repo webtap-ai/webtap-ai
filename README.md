@@ -1,10 +1,12 @@
 <div align="center" style="display: flex; align-items: center;">
   <a href="https://webtap.ai?utm_source=github" target="_blank">
     <picture>
-      <img alt="Webtap Logo" src="https://webtap.ai/images/webtap-logo-text.png" width="280" style="height: auto;"/>
+      <source srcset="https://webtap.ai/images/webtap-logo-text-transparent-bg-with-shadow.png" media="(prefers-color-scheme: light)">
+      <img alt="Webtap Logo" src="https://webtap.ai/images/webtap-logo-text.png" width="280" style="height: auto;">
     </picture>
   </a>
 </div>
+
 
 # Webtap.ai: The Ultimate AI Web Scraper
 
