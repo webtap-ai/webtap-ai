@@ -1,3 +1,11 @@
+<div align="center" style="display: flex; align-items: center;">
+  <a href="https://webtap.ai?utm_source=github" target="_blank">
+    <picture>
+      <img alt="Webtap Logo" src="https://webtap.ai/images/webtap-logo-text.png" width="280" style="height: auto;"/>
+    </picture>
+  </a>
+</div>
+
 # Webtap.ai: The Ultimate AI Web Scraper
 
 Welcome to **Webtap.ai**, the frontier of **AI web scraping** technology. Our platform is engineered to revolutionize web scraping, making data extraction seamless, efficient, and limitless. By leveraging the power of **data AI**, we cater to a wide range of scraping needs, from marketers and developers to researchers seeking high-quality, accurate data.
