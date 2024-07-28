@@ -2,7 +2,7 @@
   <a href="https://webtap.ai?utm_source=github" target="_blank">
     <picture>
       <source srcset="https://webtap.ai/images/webtap-logo-text-transparent-bg-with-shadow.png" media="(prefers-color-scheme: light)">
-      <img alt="Webtap Logo" src="https://webtap.ai/images/webtap-logo-text.png" width="280" style="height: auto;">
+      <img alt="Webtap Logo" src="https://webtap.ai/images/webtap-logo-text-nobg.png" width="280" style="height: auto;">
     </picture>
   </a>
 </div>
