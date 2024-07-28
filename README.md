@@ -29,22 +29,21 @@
 <br />
 
 
-# Webtap: A novel approch to AI-based web scraping
+# Webtap: A Novel Approach to AI-Based Web Scraping 🌐
 
 Webtap is a Python library that enables reliable, AI-driven web scraping. It leverages Large Language Models (LLMs) to orchestrate established scraping libraries, such as Apify, for efficient data extraction from the web.
 
-## The problem with traditional AI-Based Web Scraping
+#### The Problem 🚧
 
-Majority of modern websites implement tough anti-scraping measures to prevent automated data extraction: Captchas, IP blocking, and dynamic content are just a few examples. In addition to these challenges, websites are constantly evolving, with changes in layout, structure, and content. As a resultg eneric AI-based web scraping tools most of the times struggle to navigate these obstacles, leading to unreliable and inefficient data extraction.
+Modern websites use measures like captchas and IP blocking to hinder automated data extraction. With frequent changes in their layout and content, these defenses can challenge AI-based scrapers, resulting in less reliable data collection.
 
-## How Webtap solves this problem
+#### The Solution ✅
 
-Webtap relies on existing scraping libraries, such as Apify, which implement tailored solutions for specific websites to successfully extract data. Webtap uses Large Language Models (LLMs) to orchestrate these libraries, enabling intelligent navigation of the web and adaptation to dynamic content.
+Webtap combines Apify's specialized scraping libraries with Large Language Models (LLMs) for smart web navigation and dynamic content adaptation, streamlining data extraction.
 
-## Python example use case
+#### Python example use case 🐍
 
-The following code demonstrates how to use the TapManager to scrape data from Project Gutenberg using the atg_epctex_gutenberg_scraper tap. The goal is to search for books related to 'history', with a maximum of 15 items, in the Italian language, using the Apify Proxy.
-
+The code below shows how to use Webtap to find up to 15 'history'-themed books in Italian using Apify Proxy.
 ```python
 
   tap_manager = TapManager()
@@ -58,30 +57,17 @@ The following code demonstrates how to use the TapManager to scrape data from Pr
   # }
 
 ```
+# Try it now on webtap.ai 🚀
 
-# Try it now on webtap.ai
+Experience Webtap's beta version directly on [webtap.ai](https://webtap.ai?utm_source=github) with no installation needed—simply sign up to begin scraping for free.
 
-Webtap is available as a beta on [webtap.ai](https://webtap.ai?utm_source=github). You can test drive the ready-to-go beta app for free. No need to install anything, just sign up and start scraping. [Get started now!](https://webtap.ai/signup)
+[**🚀 Get Started**](https://webtap.ai/signup)
 
+# Empower your Apify Actors with AI 🤖
 
-# Use cases
+If you have built (or are planning to build) an Apify actor and want to enhance its capabilities with AI, Webtap is the perfect tool for you. By integrating Webtap into your actor, you can make it possible to access your actor's data using AI-based natural language queries. Follow instructions to [create a new Apify Tap](#creating-a-new-apify-tap) to learn how to do this.
 
- - Use one of the 40 supported Apify actors out of the box to scrape data from websites
- - Use the Universal Scraper to scrape any website with a generic LLM based scraper
- - Access yoyr own Apify actors with natural language queries
- - Write a tap for your own scraping needs using the Tap Generator (or manually)
-
-## Current state and limitations
-
-In its current state, Webtap python library currently only supports Apify as a scraping library. Some of the top 40 Apify actors are supported out of the box and can be used immediately. In addition a special Universal Scraper is available that is a generic LLM based scraper that can be used to scrape any website although not what with the same efficiency as a custom Apify actor.
-
-## Roadmap
-
- - We plan to add support for the remaining public Apify actors (1500 in total)
- - We plan to add support for other scraping libraries such as Scrapy
- - We plan to improve the Universal Scraper to be more efficient and reliable
-
-# Installation
+# Python Library Installation
 
 ## Requirements
 
@@ -154,7 +140,9 @@ After adding the line to your `requirements.txt`, you can install all your depen
 pip install -r requirements.txt
 ```
 
-# Creating a new Apify Tap using AI based Tap Generator
+# Creating a new Apify Tap
+
+## Create a new Apify Tap automatically using the Tap Generator
 
 Webtap also offers a tool to automatically generate a new Apify Tap. 
 It often works; when it doesn't work, it provides a good starting point for manual editing.
@@ -174,6 +162,23 @@ In order to see how to create a standard new ApifyTap (using json definition) se
 # Creating a new Custom Apify Tap by extending the ApifyTap class
 
 In order to see how to create a standard new ApifyTap (using json definition) see [CUSTOM_GUIDE.md](docs/taps_definition/CUSTOM_GUIDE.md)
+
+## Current State and Limitations 🚦
+
+The Webtap Python library is currently tailored to work with Apify. It readily supports a selection of the top 40 Apify actors, enabling immediate use. Additionally, the Universal Scraper is on offer as a versatile LLM-based tool capable of scraping any website, albeit with varying efficiency compared to a bespoke Apify actor.
+
+### Main use cases:
+
+- Utilize any of the 40 immediately available Apify actors for website data scraping.
+- Employ the Universal Scraper for a generic LLM-based approach to scrape any website.
+- Access your custom Apify actors using intuitive natural language queries.
+- Craft a tap tailored to your specific scraping requirements with the Tap Generator, or do it manually for more control.
+
+## Roadmap 🗺️
+
+- Integration with the full suite of public Apify actors, totaling over 1500, is under consideration for future updates.
+- We are exploring the possibility of broadening our scraping toolset to include additional libraries such as Scrapy.
+- Enhancements to the Universal Scraper are continuously evaluated, aiming to enhance its efficiency and dependability.
 
 # Acknowledgments
 
